@@ -1,4 +1,5 @@
 Arrays
+
 An array is a collection of ordered elements (values), which can be of any type (numbers, strings, objects, etc.).
 
 Features of Arrays:
@@ -40,6 +41,7 @@ arr.splice(1, 2);  // Removes 2 elements starting at index 1: [5, 1]
 ======================================================================================================================
 
 Objects
+
 An object is a collection of key-value pairs. Keys (or properties) are strings or symbols, while values can be any type.
 
 Features of Objects:
