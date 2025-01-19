@@ -1,4 +1,4 @@
-1. Primitive Data Types
+Primitive Data Types
 These are immutable and stored directly in memory.
 
 a. Number:
