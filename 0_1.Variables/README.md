@@ -37,3 +37,6 @@ const z = 10;
 const obj = { a: 1 };
 obj.a = 2; // This is allowed
 console.log(obj); // { a: 2 }
+
+![Screenshot 2025-01-19 212512](https://github.com/user-attachments/assets/2cc69198-84d4-4c06-913b-687a827cdc31)
+
