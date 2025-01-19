@@ -8,6 +8,7 @@ Template literals use backticks (`) instead of single or double quotes.
 
 Variables or expressions are inserted using the syntax ${expression}.
 
+
 Basic Example:
 
 let name = "Alice";
