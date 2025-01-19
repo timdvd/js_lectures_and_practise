@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>58.MutationObserver, ResizeObserver и contenteditable</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="padding: 50px 100px; font-size: 24px;">
+    <h1 style="font-size: 32px; margin-top: 100px; margin-left: 20%;">58.MutationObserver, ResizeObserver и contenteditable</h1>
+    <div contenteditable class="box"></div>
+    <h1>MutationObserver</h1> <br>
+    <p>The MutationObserver provides the ability to receive notifications about changes to specific DOM elements. It serves as a replacement for Mutation <br>Events, which were defined in the DOM3 Events specification.<br>
+    <h3>Constructor</h3>
+    <p>
+        MutationObserver() <br>
+        Creates and returns a new MutationObserver object that invokes a specified callback function whenever changes occur in the DOM. <br> <br></p>
+
+    <h3>Parameters</h3>
+    <p>
+        callback <br>
+A function called each time the observed DOM element changes. This function is invoked with two arguments: <br>
+
+1) An array of MutationRecord objects describing the changes. <br>
+2) The MutationObserver instance that triggered the callback. <br>
+    </p> <br>
+    <h3>Instance Methods</h3>
+    <p>
+<strong>disconnect()</strong> <br>
+Stops the MutationObserver instance from receiving notifications about changes to the DOM element. Notifications remain paused until observe() is called again. <br>
+
+<strong>observe()</strong> <br>
+Subscribes the MutationObserver instance to receive notifications about changes to a specified DOM element. <br>
+
+<strong>takeRecords()</strong> <br>
+Returns the current array of queued MutationRecord objects for the MutationObserver instance, then clears the queue. <br>
+    </p>
+    <a style="font-size: 36px; line-height: 64px;" href="https://developer.mozilla.org/ru/docs/Web/API/MutationObserver">MutationObserver</a></p>
+    <br><br><br>
+    
+    <h1>MutationRecord</h1><br>
+    <p>The MutationRecord is a read-only interface that represents an individual DOM mutation observed by a MutationObserver. It is the object inside the array <br> passed to the callback of a MutationObserver. <br></p> <br>
+    <h3>Instance properties</h3> <br>
+    <p>
+<strong>MutationRecord.addedNodes</strong> Read only<br>
+The nodes added by a mutation. Will be an empty NodeList if no nodes were added.
+<br><br>
+<strong>MutationRecord.attributeName</strong> Read only<br>
+The name of the changed attribute as a string, or null.
+<br><br>
+<strong>MutationRecord.attributeNamespace</strong> Read only<br>
+The namespace of the changed attribute as a string, or null.
+<br><br>
+<strong>MutationRecord.nextSibling</strong> Read only<br>
+The next sibling of the added or removed nodes, or null.
+<br><br>
+<strong>MutationRecord.oldValue</strong> Read only<br>
+The value depends on the MutationRecord.type:
+<br><br>
+ - For attributes, it is the value of the changed attribute before the change.<br>
+ - For characterData, it is the data of the changed node before the change.<br>
+ - For childList, it is null.<br> <br>
+<strong>MutationRecord.previousSibling</strong> Read only<br>
+The previous sibling of the added or removed nodes, or null.
+<br><br>
+<strong>MutationRecord.removedNodes</strong> Read only<br>
+The nodes removed by a mutation. Will be an empty NodeList if no nodes were removed.
+<br><br>
+<strong>MutationRecord.target</strong> Read only<br>
+The node the mutation affected, depending on the MutationRecord.type.
+<br><br>
+ - For attributes, it is the element whose attribute changed. <br>
+ - For characterData, it is the CharacterData node. <br>
+ - For childList, it is the node whose children changed. <br><br>
+<strong>MutationRecord.type</strong> Read only<br>
+A string representing the type of mutation: attributes if the mutation was an attribute mutation, characterData if it was a mutation to a CharacterData node,<br> and childList if it was a mutation to the tree of nodes.<br>
+    </p>
+    <a style="font-size: 36px; line-height: 64px;" href="https://developer.mozilla.org/en-US/docs/Web/API/MutationRecord">MutationRecord</a></p>
+    <script src="script.js"></script>
+</body>
+</html>

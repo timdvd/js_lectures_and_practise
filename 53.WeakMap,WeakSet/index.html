@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>53.WeakMap,WeakSet</title>
+</head>
+<body style="padding: 50px 100px; font-size: 24px;">
+    <h1 style="font-size: 32px; margin-top: 100px; margin-left: 20%;">53.WeakMap,WeakSet</h1>
+    <h1>WeakSet</h1>
+    <p>A WeakSet is a collection of values that supports garbage collection, including objects and unregistered symbols. Each value in a WeakSet can appear only <br>once; it is unique within the WeakSet collection. <br> <br>
+        <h2>Key differences from Set:</h2>
+        1) WeakSet contains only objects and symbols: Unlike a Set, a WeakSet cannot hold arbitrary values of any type (e.g., numbers, strings, etc.).
+        <br>
+        2) WeakSet is "weak": References to objects in a WeakSet are held weakly. This means that if there are no other references to a value stored in the <br>WeakSet, that value can be garbage collected, allowing memory to be freed.</p> <br><br>
+    
+    <h1>WeakMap</h1>
+    <p>WeakMap is a collection of key-value pairs. Only objects and unregistered symbols can be used as keys, while values can be of any type <br>
+        Keys in a WeakMap must support garbage collection. Most primitive data types do not have a lifecycle and therefore cannot be used as keys. Objects and <br>unregistered symbols can serve as keys because they are eligible for garbage collection. <br></p>
+    <script src="script.js"></script>
+</body>
+</html>

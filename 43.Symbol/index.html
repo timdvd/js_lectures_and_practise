@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>43.Symbol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="padding: 50px 100px; font-size: 24px;">
+    <h1 style="font-size: 32px; margin-top: 100px; margin-left: 20%;">43.Symbol</h1>
+    <h1>Symbol</h1>
+    <p>Symbol is a built-in object whose constructor returns a primitive value of the symbol type. These values are called symbol values or simply symbols. <br>Their main characteristic is that they guarantee uniqueness. Symbols are often used as unique keys for objects. They do not conflict with keys that <br>might be added by other code and are also hidden from access by external code. This provides a form of weak encapsulation or a weak way of hiding <br>information.
+
+    <br>   Each call to Symbol() guarantees the creation of a unique symbol. On the other hand, Symbol.for("key") always returns the same symbol for the <br>specified key. When Symbol.for("key") is called, it checks the global symbol registry. If the symbol is found, it is returned; otherwise, a new <br>symbol is created, added to the global registry under the specified key, and returned.</p>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>46.Map</title>
+</head>
+<body style="padding: 50px 100px; font-size: 24px;">
+    <h1 style="font-size: 32px; margin-top: 100px; margin-left: 20%;">46.Map</h1>
+    <h1>Map</h1> <br>
+    <p>The Map object holds key-value pairs and remembers the original insertion order of the keys. <br> 
+        Any value (both objects and primitive values) may be used as either a key or a value. <br>
+        Map objects are collections of key-value pairs. A key in the Map may only occur once; it is <br>
+         unique in the Map's collection. A Map object is iterated by key-value pairs — a for...of loop <br>
+          returns a 2-member array of [key, value] for each iteration. Iteration happens in insertion order, <br>
+           which corresponds to the order in which each key-value pair was first inserted into the map by the set() <br>
+            method (that is, there wasn't a key with the same value already in the map when set() was called). <br>
+        The specification requires maps to be implemented "that, on average, provide access times that are sublinear <br>
+         on the number of elements in the collection". Therefore, it could be represented internally as a hash table (with O(1) lookup), <br>
+          a search tree (with O(log(N)) lookup), or any other data structure, as long as the complexity is better than O(N).</p>
+    <img src="map.png" style="width: 60%; margin-left: 20%; display: block;" alt=""> <br><br>
+    <script src="script.js"></script>
+</body>
+</html>

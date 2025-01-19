@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24.Getter Setters</title>
+</head>
+<body style="padding: 50px 100px; font-size: 24px;">
+    <h1 style="font-size: 32px; margin-top: 100px; margin-left: 20%;">24.Getter Setters</h1>
+    <p>
+        There are two types of object properties:
+        <br><br>
+        Data properties<br>
+        These are the properties we've been working with so far. All the properties we've used up to this point are data properties.
+        <br><br>
+        Accessor properties<br>
+        These are properties we haven't explored yet. Accessor properties are essentially functions used <br>
+        to assign and retrieve values, but to external code, they appear as regular object properties.<br>
+        <br><br>
+        Getters and Setters<br>
+        Accessor properties are represented by methods:<br>
+        <br>
+        A getter for reading the value.<br>
+        A setter for writing the value.<br>
+        When defining an object literally, they are declared using get and set:<br><br>
+    </p>
+    <h1>Getters and Setters</h1>
+    <p>
+    
+    Accessor property descriptors differ from those of "regular" data properties.
+        <br><br>
+    Accessor properties do not have value or writable, but instead provide get and set functions.
+        <br><br>
+    An accessor descriptor can include the following:
+        <br><br>
+    get – a function without arguments that is called when the property is read. <br>
+    set – a function with one argument that is called when the property is assigned a value. <br>
+    enumerable – the same as for data properties; determines if the property shows up during enumeration. <br>
+    configurable – the same as for data properties; determines if the property can be deleted or modified. <br>
+
+    </p>
+    <script src="script.js"></script>
+</body>
+</html>
