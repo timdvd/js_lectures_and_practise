@@ -19,6 +19,7 @@ console.log(message); // Output: My name is Alice, and I am 25 years old.
 
 ====================================================================
 Advantages of Interpolation:
+====================================================================
  - Dynamic Content: Easily embed variables or expressions.
  - Multi-line Strings: Template literals support multi-line strings without needing escape characters.
  - Readable and Concise: Simplifies string concatenation.
