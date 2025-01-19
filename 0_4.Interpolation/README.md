@@ -7,8 +7,7 @@ Syntax of Template Literals:
 Template literals use backticks (`) instead of single or double quotes.
 
 Variables or expressions are inserted using the syntax ${expression}.
-
-
+====================================================================
 Basic Example:
 
 let name = "Alice";
@@ -17,13 +16,13 @@ let age = 25;
 
 let message = `My name is ${name}, and I am ${age} years old.`;
 console.log(message); // Output: My name is Alice, and I am 25 years old.
-
+====================================================================
 Advantages of Interpolation:
  - Dynamic Content: Easily embed variables or expressions.
  - Multi-line Strings: Template literals support multi-line strings without needing escape characters.
  - Readable and Concise: Simplifies string concatenation.
-
-Embedding Expressions
+====================================================================
+Embedding Expressions:
 You can include any valid JavaScript expression inside the ${} syntax.
 
 let a = 10;
