@@ -7,7 +7,9 @@ Template literals use backticks (`) instead of single or double quotes.
 Variables or expressions are inserted using the syntax ${expression}.
 
 Basic Example:
+
 let name = "Alice";
+
 let age = 25;
 
 let message = `My name is ${name}, and I am ${age} years old.`;
