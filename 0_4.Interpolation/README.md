@@ -2,8 +2,10 @@ JavaScript String Interpolation
 
 String interpolation in JavaScript allows you to embed variables or expressions into strings. This is done using template literals, introduced in ES6 (ECMAScript 2015).
 
-Syntax of Template Literals
+Syntax of Template Literals:
+
 Template literals use backticks (`) instead of single or double quotes.
+
 Variables or expressions are inserted using the syntax ${expression}.
 
 Basic Example:
