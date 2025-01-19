@@ -6,7 +6,7 @@ Syntax of Template Literals
 Template literals use backticks (`) instead of single or double quotes.
 Variables or expressions are inserted using the syntax ${expression}.
 
-Basic Example
+Basic Example:
 let name = "Alice";
 let age = 25;
 
