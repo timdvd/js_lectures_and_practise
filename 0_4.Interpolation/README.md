@@ -30,6 +30,7 @@ Embedding Expressions:
 You can include any valid JavaScript expression inside the ${} syntax.
 
 let a = 10;
+
 let b = 20;
 
 console.log(`The sum of ${a} and ${b} is ${a + b}.`); // Output: The sum of 10 and 20 is 30.
