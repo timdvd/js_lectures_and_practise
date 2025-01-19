@@ -18,6 +18,7 @@ let message = `My name is ${name}, and I am ${age} years old.`;
 console.log(message); // Output: My name is Alice, and I am 25 years old.
 
 ====================================================================
+
 Advantages of Interpolation:
 =====================
  - Dynamic Content: Easily embed variables or expressions.
