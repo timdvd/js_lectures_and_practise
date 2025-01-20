@@ -1,4 +1,4 @@
-#In JavaScript, collections are data structures used to store and manipulate groups of data. Commonly used collections include arrays, sets, and maps, each with their own specific methods for interacting with the data. Here's an overview of collections and their methods:
+# In JavaScript, collections are data structures used to store and manipulate groups of data. Commonly used collections include arrays, sets, and maps, each with their own specific methods for interacting with the data. Here's an overview of collections and their methods:
 
 ## 1. Arrays
 An array is an ordered collection of elements, which can include any data type.
