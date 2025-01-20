@@ -1,32 +1,34 @@
 
-In JavaScript, variables are containers for storing data values. You can declare variables using the following keywords:
+# In JavaScript, variables are containers for storing data values. You can declare variables using the following keywords:
 
-1. var (function-scoped):
+
+## 1. var (function-scoped):
  - Scope: Function-scoped (available throughout the function they are declared in).
  - Hoisting: var variables are hoisted (moved to the top of their scope) but initialized with undefined.
  - Redeclaration: Can be redeclared in the same scope.
  - Usage: Considered outdated and generally avoided in modern JavaScript.
 
 var x = 10;
-if (true) {
-    var x = 20; // Modifies the same x
-}
+if (true) {  
+    var x = 20; // Modifies the same x   
+}  
+
 console.log(x); // 20
 
-2. let (block-scoped):
+## 2. let (block-scoped):
  - Scope: Block-scoped (available only within the block {} they are declared in).
  - oisting: let is hoisted but not initialized (accessing it before declaration results in a ReferenceError).
  - Redeclaration: Cannot be redeclared in the same scope.
  - Usage: Commonly used for variables that might change value.
 
-let y = 10;
-if (true) {
-    let y = 20; // Creates a new y within the block
-    console.log(y); // 20
-}
-console.log(y); // 10
+let y = 10;    
+if (true) {   
+    let y = 20; // Creates a new y within the block   
+    console.log(y); // 20    
+}    
+console.log(y); // 10    
 
-3. const (block-scoped):
+## 3. const (block-scoped):
  - Scope: Block-scoped (like let).
  - Hoisting: const is hoisted but not initialized (accessing it before declaration results in a ReferenceError).
  - Immutability: The variable itself cannot be reassigned, but the value inside (if it's an object or array) can be modified.
