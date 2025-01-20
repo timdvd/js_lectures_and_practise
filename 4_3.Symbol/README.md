@@ -1,4 +1,5 @@
-# In JavaScript, a Symbol is a primitive data type introduced in ES6 (ECMAScript 2015). It is often used to create unique, immutable identifiers for object properties. Symbols are not enumerable and are guaranteed to be unique, which makes them useful for avoiding property name collisions in objects.
+# In JavaScript, a Symbol is a primitive data type introduced in ES6 (ECMAScript 2015). 
+## It is often used to create unique, immutable identifiers for object properties. Symbols are not enumerable and are guaranteed to be unique, which makes them useful for avoiding property name collisions in objects.
 
 ## Creating Symbols
 Symbols can be created using the Symbol() function:
