@@ -139,4 +139,5 @@ In this case, we use array destructuring directly in the function parameter to e
  - Default Values: You can assign default values for undefined properties or array elements.
  - Nested Destructuring: You can destructure arrays or objects that are nested inside other arrays or objects.
  - Destructuring in Functions: Destructuring is useful in function parameters for cleaner and more readable code.
+   
 Destructuring is a powerful tool for managing and extracting data efficiently in JavaScript, making your code more readable and concise.
