@@ -88,7 +88,7 @@ console.log(str.repeat(3)); // Output: "Hello Hello Hello "
 ```
 
 
-##2. Integer (Number) Methods
+## 2. Integer (Number) Methods
 
 ### a. .toFixed(digits)
 Formats a number to a fixed number of decimal places.
