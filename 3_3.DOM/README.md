@@ -25,7 +25,7 @@ Document
 ```
 
 ### Node Types:
- - Element Nodes: Represent HTML elements (e.g., <div>, <p>).
+ - Element Nodes: Represent HTML elements.
  - Text Nodes: Contain the text inside an element.
  - Attribute Nodes: Represent the attributes of elements.
  - Document Node: Represents the entire document.
