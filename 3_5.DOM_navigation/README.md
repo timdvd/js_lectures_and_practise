@@ -67,7 +67,7 @@ console.log(allDivs);  // Logs a NodeList of all div elements inside #parent
 ```
 
 ## 5. Traversing the DOM Tree with Methods
-In addition to navigation through direct properties, JavaScript also provides traversal methods to search for elements in the DOM:
+### In addition to navigation through direct properties, JavaScript also provides traversal methods to search for elements in the DOM:
 
  - getElementById(): Finds an element by its ID.
  - getElementsByClassName(): Finds elements by class name (returns an HTMLCollection).
