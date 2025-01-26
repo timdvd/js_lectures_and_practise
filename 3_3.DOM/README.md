@@ -27,7 +27,7 @@ Document
 ### Node Types:
  - Element Nodes: Represent HTML elements (e.g., <div>, <p>).
  - Text Nodes: Contain the text inside an element.
- - Attribute Nodes: Represent the attributes of elements (e.g.,id,class).
+ - Attribute Nodes: Represent the attributes of elements.
  - Document Node: Represents the entire document.
 
 ### Accessing the DOM: JavaScript provides methods to interact with the DOM. Common ways to select elements include:
