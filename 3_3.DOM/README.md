@@ -2,10 +2,10 @@
 ## is a programming interface that represents the structure of a web page as a tree of objects. It allows developers to interact with and manipulate HTML and XML documents dynamically using JavaScript.
 
 ## Key Concepts of the DOM:
-## Tree Structure:
+### Tree Structure:
 
 ### The DOM represents an HTML document as a tree-like structure where every element is a node.
-### For example, the following HTML:
+ - For example, the following HTML:
 ```
 <html>
   <body>
@@ -27,7 +27,7 @@ Document
 ### Node Types:
  - Element Nodes: Represent HTML elements (e.g., <div>, <p>).
  - Text Nodes: Contain the text inside an element.
- - Attribute Nodes: Represent the attributes of elements (e.g., id, class).
+ - Attribute Nodes: Represent the attributes of elements (e.g.,id,class).
  - Document Node: Represents the entire document.
 
 ### Accessing the DOM: JavaScript provides methods to interact with the DOM. Common ways to select elements include:
