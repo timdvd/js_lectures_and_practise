@@ -1,5 +1,5 @@
 # JavaScript (ES6) lectures and practise materials
-## This repository contains study notes, code examples, and hands-on exercises from a Udemy course I'm currently taking. It serves as both a learning archive and a personal reference for reviewing key concepts and practicing real-world skills.
+### This repository contains study notes, code examples, and hands-on exercises from a Udemy course I'm currently taking. It serves as both a learning archive and a personal reference for reviewing key concepts and practicing real-world skills.
 
 ## Purpose
 ### This project helps me reinforce what I’ve learned by actively coding along with the course and organizing all practical work in one place.
